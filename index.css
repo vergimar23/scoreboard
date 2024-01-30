@@ -1,0 +1,73 @@
+@font-face{
+    src: url("CursedTimer.ttf");
+    font-family: CursedTimer;
+}
+body {
+    background-image: url("court.jpg");
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 75px;
+
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.score{  
+width: 155px;
+height: 120px;
+background: black;
+opacity: 0.8;
+color: #F94F6D;
+font-size: 90px;
+padding-top: 20px;
+border-radius: 10%;
+margin:0px;
+position:relative;
+top:-10px;
+left: 10px; 
+font-family: CursedTimer;    
+}
+button {
+    background: #F0F3BD;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: CursedTimer;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    position: relative; 
+    left: 9px;
+    transition: all 0.8s;  
+    opacity: 0.8; 
+}
+button:hover {background-color: #009DDC}
+
+#newgame{
+    text-align: center;
+    background: orange;
+    height: 60px;
+    width: 159px;
+    padding-top: 8px;
+    transition: all 0.8s;
+    
+}
+#newgame:hover {background-color: #009DDC}
+
+.newgamebtn{
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+   
+
+    
+}
