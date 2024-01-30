@@ -2,7 +2,7 @@ let homePoint =document.getElementById ("home-el")
 let guestPoint =document.getElementById ("guest-el")
 let newGame =document.getElementById ("newgame")
 let count = 0
-
+let countaway = 0
 
 function home(){
    count +=1
@@ -20,22 +20,23 @@ function home3(){
 }
 
 function guest(){
-    count +=1
-    guestPoint.textContent = count
+    countaway +=1
+    guestPoint.textContent = countaway
     
 }
 function guest2(){
-    count +=2
-    guestPoint.textContent = count
+    countaway +=2
+    guestPoint.textContent = countaway
 }
 
 function guest3(){
-    count +=3
-    guestPoint.textContent = count
+    countaway +=3
+    guestPoint.textContent = countaway
 }
 
 function newbtn(){
     guestPoint.textContent = 0
     homePoint.textContent = 0
     count = 0
+    countaway = 0
 }
